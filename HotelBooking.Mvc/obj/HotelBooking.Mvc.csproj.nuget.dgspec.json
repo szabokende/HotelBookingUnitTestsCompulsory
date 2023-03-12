@@ -1,0 +1,197 @@
+{
+  "format": 1,
+  "restore": {
+    "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/HotelBooking.Mvc.csproj": {}
+  },
+  "projects": {
+    "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Core/HotelBooking.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Core/HotelBooking.Core.csproj",
+        "projectName": "HotelBooking.Core",
+        "projectPath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Core/HotelBooking.Core.csproj",
+        "packagesPath": "/Users/kendeszabo/.nuget/packages/",
+        "outputPath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kendeszabo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/HotelBooking.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/HotelBooking.Infrastructure.csproj",
+        "projectName": "HotelBooking.Infrastructure",
+        "projectPath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/HotelBooking.Infrastructure.csproj",
+        "packagesPath": "/Users/kendeszabo/.nuget/packages/",
+        "outputPath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kendeszabo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Core/HotelBooking.Core.csproj": {
+                "projectPath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Core/HotelBooking.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/HotelBooking.Mvc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/HotelBooking.Mvc.csproj",
+        "projectName": "HotelBooking.Mvc",
+        "projectPath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/HotelBooking.Mvc.csproj",
+        "packagesPath": "/Users/kendeszabo/.nuget/packages/",
+        "outputPath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kendeszabo/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Core/HotelBooking.Core.csproj": {
+                "projectPath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Core/HotelBooking.Core.csproj"
+              },
+              "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/HotelBooking.Infrastructure.csproj": {
+                "projectPath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/HotelBooking.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "SerializedFilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/obj/Debug/project.razor.json",
+  "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/HotelBooking.Mvc.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "6.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1100
+  },
+  "RootNamespace": "HotelBooking.Mvc",
+  "Documents": [
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Shared/_CookieConsentPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Rooms/Delete.cshtml",
+      "TargetPath": "Views\\Rooms\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Rooms/Edit.cshtml",
+      "TargetPath": "Views\\Rooms\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Bookings/Edit.cshtml",
+      "TargetPath": "Views\\Bookings\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Bookings/Create.cshtml",
+      "TargetPath": "Views\\Bookings\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Customers/Edit.cshtml",
+      "TargetPath": "Views\\Customers\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Bookings/Details.cshtml",
+      "TargetPath": "Views\\Bookings\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Shared/_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Rooms/Details.cshtml",
+      "TargetPath": "Views\\Rooms\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Customers/Create.cshtml",
+      "TargetPath": "Views\\Customers\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Bookings/Delete.cshtml",
+      "TargetPath": "Views\\Bookings\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Shared/Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Bookings/Index.cshtml",
+      "TargetPath": "Views\\Bookings\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Customers/Delete.cshtml",
+      "TargetPath": "Views\\Customers\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Customers/Index.cshtml",
+      "TargetPath": "Views\\Customers\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Customers/Details.cshtml",
+      "TargetPath": "Views\\Customers\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Rooms/Create.cshtml",
+      "TargetPath": "Views\\Rooms\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Rooms/Index.cshtml",
+      "TargetPath": "Views\\Rooms\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.3"
+}

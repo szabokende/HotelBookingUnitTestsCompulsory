@@ -1,0 +1,20 @@
+{
+  "SerializedFilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.WebApi/obj/Debug/project.razor.json",
+  "FilePath": "/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.WebApi/HotelBooking.WebApi.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "6.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1100
+  },
+  "RootNamespace": "HotelBooking.WebApi",
+  "Documents": [],
+  "SerializationFormat": "0.3"
+}

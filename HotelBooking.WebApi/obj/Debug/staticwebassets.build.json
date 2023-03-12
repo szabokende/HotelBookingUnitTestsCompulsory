@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NiBPurmIAqRHMUBcUPRPUHJUHRRpNcDDqpLfTHHtxBw=",
+  "Source": "HotelBooking.WebApi",
+  "BasePath": "_content/HotelBooking.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

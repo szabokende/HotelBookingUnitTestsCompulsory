@@ -1,0 +1,15 @@
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/bin/Debug/net6.0/HotelBooking.Infrastructure.deps.json
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/bin/Debug/net6.0/HotelBooking.Infrastructure.dll
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/bin/Debug/net6.0/HotelBooking.Infrastructure.pdb
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/bin/Debug/net6.0/HotelBooking.Core.dll
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/bin/Debug/net6.0/HotelBooking.Core.pdb
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/obj/Debug/HotelBooking.Infrastructure.csproj.AssemblyReference.cache
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/obj/Debug/HotelBooking.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/obj/Debug/HotelBooking.Infrastructure.AssemblyInfoInputs.cache
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/obj/Debug/HotelBooking.Infrastructure.AssemblyInfo.cs
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/obj/Debug/HotelBooking.Infrastructure.csproj.CoreCompileInputs.cache
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/obj/Debug/HotelBooking.Infrastructure.csproj.CopyComplete
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/obj/Debug/HotelBooking.Infrastructure.dll
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/obj/Debug/refint/HotelBooking.Infrastructure.dll
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/obj/Debug/HotelBooking.Infrastructure.pdb
+/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Infrastructure/obj/Debug/ref/HotelBooking.Infrastructure.dll
