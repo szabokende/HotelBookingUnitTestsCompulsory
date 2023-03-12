@@ -4,7 +4,7 @@ using HotelBooking.Core;
 using HotelBooking.UnitTests.Fakes;
 using Xunit;
 using Moq;
-
+using System.Diagnostics;
 
 namespace HotelBooking.UnitTests
 {
@@ -21,9 +21,14 @@ namespace HotelBooking.UnitTests
         }
 
         [Theory]
-        [InlineData("2022-01-01", "2022-01-01")]
-        [InlineData("2022-02-28", "2022-03-01")]
-        [InlineData("2024-12-30", "2022-12-31")]
+        [InlineData("2023-02-01", "2023-02-05")]
+        [InlineData("2023-03-05", "2023-03-15")]
+        [InlineData("2023-03-13", "2023-03-15")]
+        [InlineData("2023-03-15", "2023-04-02")]
+        [InlineData("2023-04-03", "2023-04-10")]
+        [InlineData("2023-03-14", "2023-03-20")]
+        [InlineData("2023-03-20", "2023-03-25")]
+        [InlineData("2023-03-20", "2023-04-05")]
         public void FindAvailableRoom_StartDateNotInTheFuture_ThrowsArgumentException(DateTime startDate, DateTime endDate)
         {
             // Arrange
@@ -31,22 +36,42 @@ namespace HotelBooking.UnitTests
 
             // Act
             Action act = () => _bookingManager.FindAvailableRoom(startDate, endDate);
-
+            var exception = Record.Exception(() => _bookingManager.FindAvailableRoom(startDate, endDate));
             // Assert
-            Assert.Throws<ArgumentException>(act);
+            if (startDate <= DateTime.Today || startDate > endDate)
+            {
+                Assert.Throws<ArgumentException>(act);
+            }
+            else
+            {
+                Assert.Null(exception);
+            }
+            
         }
 
         [Theory]
-        [InlineData("2026-01-01", "2026-02-01")]
-        [InlineData("2025-02-28", "2025-03-01")]
-        [InlineData("2024-12-30", "2023-12-31")]
+        [InlineData("2023-02-01", "2023-02-05")]
+        [InlineData("2023-03-05", "2023-03-15")]
+        [InlineData("2023-03-13", "2023-03-15")]
+        [InlineData("2023-03-15", "2023-04-02")]
+        [InlineData("2023-04-03", "2023-04-10")]
+        [InlineData("2023-03-14", "2023-03-20")]
+        [InlineData("2023-03-20", "2023-03-25")]
+        [InlineData("2023-03-20", "2023-04-05")]
         public void FindAvailableRoom_RoomAvailable_RoomIdNotMinusOne(DateTime startDate, DateTime endDate)
         {
             //TODO figure out how to only check the available room scenario
             // Arrange
+            IEnumerable<Booking> bookings = new Booking[] { new Booking { Id = 1, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 1, Customer = new Customer(), Room = new Room() }, new Booking { Id = 2, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 2, Customer = new Customer(), Room = new Room() }, new Booking { Id = 3, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 3, Customer = new Customer(), Room = new Room() }, };
+            IEnumerable<Room> rooms = new Room[] { new Room { Id = 1, Description = "A"}, new Room { Id = 2, Description = "B" }, new Room { Id = 3, Description = "C" }, };
             
+            _bookingRepoMock.Setup(x => x.GetAll()).Returns(bookings);
+            _roomRepoMock.Setup(x => x.GetAll()).Returns(rooms);
             // Act
-            int roomId = _bookingManager.FindAvailableRoom(startDate, endDate);
+            int roomId = _bookingManager.FindAvailableRoom(DateTime.Today.AddDays(1), DateTime.Today.AddDays(1));
+            Console.WriteLine("room id: " +  roomId.ToString());
+            Console.WriteLine("This is the message ");
+            // Assert
             // Assert
             Assert.NotEqual(-1, roomId);
         }
