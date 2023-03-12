@@ -1,0 +1,47 @@
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{34FEB63B-C2F6-466A-9430-5930D96E1FE8}|Unit Tests">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HotelBooking.IntegrationTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.HotelBooking.UnitTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.HotelBooking.Mvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HotelBooking.UnitTests/BookingManagerMoqTests.cs">
+    <Files>
+      <File FileName="HotelBooking.UnitTests/BookingManagerMoqTests.cs" Line="6" Column="11" />
+      <File FileName="HotelBooking.Mvc/Controllers/BookingsController.cs" Line="68" Column="60" />
+      <File FileName="HotelBooking.Core/Services/BookingManager.cs" Line="36" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HotelBooking" expanded="True">
+            <Node name="HotelBooking.Core" expanded="True">
+              <Node name="Interfaces" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="HotelBooking.Mvc" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="HotelBooking.UnitTests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="HotelBooking" expanded="True">
+            <Node name="HotelBooking.IntegrationTests" expanded="True" />
+            <Node name="HotelBooking.UnitTests" expanded="True">
+              <Node name="HotelBooking.UnitTests" expanded="True">
+                <Node name="BookingManagerMoqTests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.HotelBooking.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
