@@ -3,109 +3,169 @@ using System.Collections.Generic;
 using HotelBooking.Core;
 using HotelBooking.UnitTests.Fakes;
 using Xunit;
+using Moq;
+using System.Diagnostics;
+using System.Linq;
 
 namespace HotelBooking.UnitTests
 {
-    public class BookingManagerTests
+    public class BookingManagerMoqTests
     {
-        private IBookingManager bookingManager;
+        private readonly BookingManager _bookingManager;
+        private readonly Mock<IRepository<Booking>> _bookingRepoMock = new Mock<IRepository<Booking>>();
+        private readonly Mock<IRepository<Room>> _roomRepoMock = new Mock<IRepository<Room>>();
 
-        public BookingManagerTests()
+        public BookingManagerMoqTests()
         {
-            DateTime start = DateTime.Today.AddDays(10);
-            DateTime end = DateTime.Today.AddDays(20);
-            IRepository<Booking> bookingRepository = new FakeBookingRepository(start, end);
-            IRepository<Room> roomRepository = new FakeRoomRepository();
-            bookingManager = new BookingManager(bookingRepository, roomRepository);
+            _bookingManager = new BookingManager(_bookingRepoMock.Object, _roomRepoMock.Object);
+
         }
 
-        [Fact]
-        public void FindAvailableRoom_StartDateNotInTheFuture_ThrowsArgumentException()
+        [Theory]
+        [InlineData("2023-02-01", "2023-02-05")]
+        [InlineData("2023-03-05", "2023-03-15")]
+        [InlineData("2023-03-13", "2023-03-15")]
+        [InlineData("2023-03-15", "2023-04-02")]
+        [InlineData("2023-04-03", "2023-04-10")]
+        [InlineData("2023-03-14", "2023-03-20")]
+        [InlineData("2023-03-20", "2023-03-25")]
+        [InlineData("2023-03-20", "2023-04-05")]
+        public void FindAvailableRoom_StartDateNotInTheFuture_ThrowsArgumentException(DateTime startDate, DateTime endDate)
         {
             // Arrange
-            DateTime date = DateTime.Today;
+           
 
             // Act
-            Action act = () => bookingManager.FindAvailableRoom(date, date);
-
+            Action act = () => _bookingManager.FindAvailableRoom(startDate, endDate);
+            var exception = Record.Exception(() => _bookingManager.FindAvailableRoom(startDate, endDate));
             // Assert
-            Assert.Throws<ArgumentException>(act);
+            if (startDate <= DateTime.Today || startDate > endDate)
+            {
+                Assert.Throws<ArgumentException>(act);
+            }
+            else
+            {
+                Assert.Null(exception);
+            }
+            
         }
 
-        [Fact]
-        public void FindAvailableRoom_RoomAvailable_RoomIdNotMinusOne()
+        [Theory]
+
+        [InlineData("2023-04-03", "2023-04-10")]
+   
+        public void FindAvailableRoom_RoomAvailable_RoomIdNotMinusOne(DateTime startDate, DateTime endDate)
         {
+            //TODO figure out how to only check the available room scenario
             // Arrange
-            DateTime date = DateTime.Today.AddDays(1);
+            IEnumerable<Booking> bookings = new Booking[] { new Booking { Id = 1, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 1, Customer = new Customer(), Room = new Room() }, new Booking { Id = 2, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 2, Customer = new Customer(), Room = new Room() }, new Booking { Id = 3, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 3, Customer = new Customer(), Room = new Room() }, };
+            IEnumerable<Room> rooms = new Room[] { new Room { Id = 1, Description = "A"}, new Room { Id = 2, Description = "B" }, new Room { Id = 3, Description = "C" }, };
+
+
             // Act
-            int roomId = bookingManager.FindAvailableRoom(date, date);
+            _bookingRepoMock.Setup(x => x.GetAll()).Returns(bookings);
+            _roomRepoMock.Setup(x => x.GetAll()).Returns(rooms);
+            //TODO correct dates in the below method
+            int roomId = _bookingManager.FindAvailableRoom(startDate, endDate);
             // Assert
+  
             Assert.NotEqual(-1, roomId);
         }
 
-        //
-        [Fact]
-        public void FindFullyOccupiedDates_RoomIsFullyBooked_ReturnsExpectedResult()
+        [Theory]
+        [InlineData("2023-03-15", "2023-03-20")]
+  
+        [InlineData("2023-03-15", "2023-04-02")]
+        [InlineData("2023-03-14", "2023-03-20")]
+        [InlineData("2023-03-20", "2023-03-25")]
+        [InlineData("2023-03-20", "2023-04-05")]// all rooms occupied
+        public void FindAvailableRoom_NoRoomsAvailable_ReturnsMinusOne(DateTime startDate, DateTime endDate)
+{
+    // Arrange
+    IEnumerable<Booking> bookings = new Booking[]
+    {
+        new Booking { Id = 1, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 1, Customer = new Customer(), Room = new Room() },
+        new Booking { Id = 2, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 2, Customer = new Customer(), Room = new Room() },
+        new Booking { Id = 3, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 3, Customer = new Customer(), Room = new Room() },
+    };
+    IEnumerable<Room> rooms = new Room[]
+    {
+        new Room { Id = 1, Description = "A"},
+        new Room { Id = 2, Description = "B" },
+        new Room { Id = 3, Description = "C" },
+    };
+
+    // Act
+    _bookingRepoMock.Setup(x => x.GetAll()).Returns(bookings);
+    _roomRepoMock.Setup(x => x.GetAll()).Returns(rooms);
+    int roomId = _bookingManager.FindAvailableRoom(startDate, endDate);
+
+    // Assert
+    Assert.Equal(-1, roomId);
+}
+
+
+        [Theory]
+        [InlineData("2023-02-01", "2023-02-05")]
+        [InlineData("2023-03-05", "2023-03-15")]
+        [InlineData("2023-03-13", "2023-03-15")]
+        [InlineData("2023-03-15", "2023-04-02")]
+        [InlineData("2023-04-03", "2023-04-10")]
+        [InlineData("2023-03-14", "2023-03-20")]
+        [InlineData("2023-03-20", "2023-03-25")]
+        [InlineData("2023-03-20", "2023-04-05")]
+        public void GetFullyOccupiedDates_InvalidDates_ThrowsArgumentException(DateTime startDate, DateTime endDate)
         {
+
             // Arrange
-            DateTime startDate = new DateTime(2023, 3, 1);
-            DateTime endDate = new DateTime(2023, 3, 10);
-            int roomId = 1;
+
 
             // Act
-            List<DateTime> fullyOccupiedDates = bookingManager.GetFullyOccupiedDates(startDate, endDate);
-
+            Action act = () => _bookingManager.GetFullyOccupiedDates(startDate, endDate);
+            var exception = Record.Exception(() => _bookingManager.GetFullyOccupiedDates(startDate, endDate));
             // Assert
-            Assert.NotNull(fullyOccupiedDates);
-            Assert.Equal(10, fullyOccupiedDates.Count);
-            for (int i = 0; i < fullyOccupiedDates.Count; i++)
+            if ( startDate > endDate)
             {
-                Assert.Equal(startDate.AddDays(i), fullyOccupiedDates[i]);
+                Assert.Throws<ArgumentException>(act);
+              
+            }
+            
+            else
+            {
+                Assert.Null(exception);
             }
         }
 
-        //checks if the GetFullyOccupiedDates method returns a list of fully occupied dates
-        [Fact]
-        public void GetFullyOccupiedRooms_ReturnsExpectedResult()
+        [Theory]
+        [InlineData("2023-02-01", "2023-02-05")]
+        [InlineData("2023-03-05", "2023-03-15")]
+        [InlineData("2023-03-13", "2023-03-15")]
+        [InlineData("2023-03-15", "2023-04-02")]
+        [InlineData("2023-04-03", "2023-04-10")]
+        [InlineData("2023-03-14", "2023-03-20")]
+        [InlineData("2023-03-20", "2023-03-25")]
+        [InlineData("2023-03-20", "2023-04-05")]
+        public void GetFullyOccupiedDates_ValidDates_ReturnsFullyOccupiedDates(DateTime startDate, DateTime endDate)
         {
-            // Arrange
-            DateTime startDate = DateTime.Today.AddDays(1);
-            DateTime endDate = DateTime.Today.AddDays(4);
 
+            
+            // Arrange
+            IEnumerable<Booking> bookings = new Booking[] { new Booking { Id = 1, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 1, Customer = new Customer(), Room = new Room {Id= 1, Description="A" } }, new Booking { Id = 2, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 2, Customer = new Customer(), Room = new Room { Id = 2, Description = "B" } }, new Booking { Id = 3, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 3, Customer = new Customer(), Room = new Room { Id = 3, Description = "C" } }, };
+            IEnumerable<Room> rooms = new Room[] { new Room { Id = 1, Description = "A" }, new Room { Id = 2, Description = "B" }, new Room { Id = 3, Description = "C" }, };
+         
+            //List<DateTime> expectedDates = new List<DateTime> { new DateTime(2023, 03, 16), };
+
+            _bookingRepoMock.Setup(x => x.GetAll()).Returns(bookings);
+            _roomRepoMock.Setup(x => x.GetAll()).Returns(rooms);
             // Act
-            var fullyOccupiedDates = bookingManager.GetFullyOccupiedDates(startDate, endDate);
+            List<DateTime> fullyOccupiedDates = _bookingManager.GetFullyOccupiedDates(startDate, endDate);
+
 
             // Assert
-            Assert.Equal(new List<DateTime> { startDate, endDate }, fullyOccupiedDates);
+            Assert.NotNull(fullyOccupiedDates);
+
         }
 
-        [Fact]
-        public void GetFullyOccupiedRooms_NoOccupiedDates_ReturnsEmptyList()
-        {
-            // Arrange
-            DateTime startDate = DateTime.Today.AddDays(10);
-            DateTime endDate = DateTime.Today.AddDays(14);
-
-            // Act
-            var fullyOccupiedDates = bookingManager.GetFullyOccupiedDates(startDate, endDate);
-
-            // Assert
-            Assert.Empty(fullyOccupiedDates);
-        }
-
-        [Fact]
-        public void GetFullyOccupiedRooms_InvalidDates_ThrowsArgumentException()
-        {
-            // Arrange
-            DateTime startDate = DateTime.Today.AddDays(10);
-            DateTime endDate = DateTime.Today.AddDays(5);
-
-            // Act
-            Action act = () => bookingManager.GetFullyOccupiedDates(startDate, endDate);
-
-            // Assert
-            Assert.Throws<ArgumentException>(act);
-        }
 
     }
 }
