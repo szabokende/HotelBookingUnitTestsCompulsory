@@ -9,13 +9,14 @@ using System.Linq;
 
 namespace HotelBooking.UnitTests
 {
-    public class BookingManagerMoqTests
+    public class BookingManagerTests
     {
+        // THIS IS A COMMENT TO TEST PIPELINE TRIGGER
         private readonly BookingManager _bookingManager;
         private readonly Mock<IRepository<Booking>> _bookingRepoMock = new Mock<IRepository<Booking>>();
         private readonly Mock<IRepository<Room>> _roomRepoMock = new Mock<IRepository<Room>>();
 
-        public BookingManagerMoqTests()
+        public BookingManagerTests()
         {
             _bookingManager = new BookingManager(_bookingRepoMock.Object, _roomRepoMock.Object);
 
@@ -56,16 +57,14 @@ namespace HotelBooking.UnitTests
    
         public void FindAvailableRoom_RoomAvailable_RoomIdNotMinusOne(DateTime startDate, DateTime endDate)
         {
-            //TODO figure out how to only check the available room scenario
+
             // Arrange
             IEnumerable<Booking> bookings = new Booking[] { new Booking { Id = 1, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 1, Customer = new Customer(), Room = new Room() }, new Booking { Id = 2, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 2, Customer = new Customer(), Room = new Room() }, new Booking { Id = 3, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 3, Customer = new Customer(), Room = new Room() }, };
             IEnumerable<Room> rooms = new Room[] { new Room { Id = 1, Description = "A"}, new Room { Id = 2, Description = "B" }, new Room { Id = 3, Description = "C" }, };
-
-
             // Act
             _bookingRepoMock.Setup(x => x.GetAll()).Returns(bookings);
             _roomRepoMock.Setup(x => x.GetAll()).Returns(rooms);
-            //TODO correct dates in the below method
+
             int roomId = _bookingManager.FindAvailableRoom(startDate, endDate);
             // Assert
   
@@ -74,7 +73,6 @@ namespace HotelBooking.UnitTests
 
         [Theory]
         [InlineData("2023-03-15", "2023-03-20")]
-  
         [InlineData("2023-03-15", "2023-04-02")]
         [InlineData("2023-03-14", "2023-03-20")]
         [InlineData("2023-03-20", "2023-03-25")]
@@ -153,7 +151,7 @@ namespace HotelBooking.UnitTests
             IEnumerable<Booking> bookings = new Booking[] { new Booking { Id = 1, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 1, Customer = new Customer(), Room = new Room {Id= 1, Description="A" } }, new Booking { Id = 2, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 2, Customer = new Customer(), Room = new Room { Id = 2, Description = "B" } }, new Booking { Id = 3, StartDate = new DateTime(2023, 03, 16), EndDate = new DateTime(2023, 03, 30), IsActive = true, CustomerId = 1, RoomId = 3, Customer = new Customer(), Room = new Room { Id = 3, Description = "C" } }, };
             IEnumerable<Room> rooms = new Room[] { new Room { Id = 1, Description = "A" }, new Room { Id = 2, Description = "B" }, new Room { Id = 3, Description = "C" }, };
          
-            //List<DateTime> expectedDates = new List<DateTime> { new DateTime(2023, 03, 16), };
+
 
             _bookingRepoMock.Setup(x => x.GetAll()).Returns(bookings);
             _roomRepoMock.Setup(x => x.GetAll()).Returns(rooms);
