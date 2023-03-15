@@ -1,28 +1,22 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{34FEB63B-C2F6-466A-9430-5930D96E1FE8}|Unit Tests">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.HotelBooking.IntegrationTests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="HotelBooking.UnitTests/BookingManagerMoqTests.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{2A98B98E-16D8-4F8D-A2D2-E4C4377CBB30}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.HotelBooking.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HotelBooking.UnitTests/BookingManagerTests.cs">
     <Files>
-      <File FileName="HotelBooking.UnitTests/BookingManagerMoqTests.cs" Line="98" Column="89" />
-      <File FileName="HotelBooking.Core/Services/BookingManager.cs" Line="56" Column="52" />
+      <File FileName="HotelBooking.UnitTests/BookingManagerMoqTests.cs" Line="4" Column="36" />
       <File FileName="HotelBooking.Core/Interfaces/IRepository.cs" Line="1" Column="1" />
+      <File FileName="HotelBooking.Core/Services/BookingManager.cs" Line="19" Column="34" />
+      <File FileName="HotelBooking.WebApi/Controllers/BookingsController.cs" Line="47" Column="48" />
+      <File FileName="HotelBooking.WebApi/Program.cs" Line="48" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="HotelBooking" expanded="True">
-            <Node name="HotelBooking.Core" expanded="True">
-              <Node name="Entities" expanded="True" />
-              <Node name="Interfaces" expanded="True" />
-              <Node name="Services" expanded="True" />
-            </Node>
-            <Node name="HotelBooking.Infrastructure" expanded="True" />
-            <Node name="HotelBooking.Mvc" expanded="True">
-              <Node name="Controllers" expanded="True" />
-            </Node>
-            <Node name="HotelBooking.UnitTests" expanded="True">
-              <Node name="BookingManagerMoqTests.cs" selected="True" />
-            </Node>
+            <Node name="HotelBooking.UnitTests" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -31,7 +25,7 @@
           <Node name="HotelBooking" expanded="True">
             <Node name="HotelBooking.UnitTests" expanded="True">
               <Node name="HotelBooking.UnitTests" expanded="True">
-                <Node name="BookingManagerMoqTests" expanded="True" />
+                <Node name="BookingManagerTests" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -39,12 +33,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.HotelBooking.UnitTests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.HotelBooking.WebApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.HotelBooking.Mvc PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.HotelBooking.UnitTests PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HotelBooking.IntegrationTests PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

@@ -72,9 +72,9 @@ namespace HotelBooking.UnitTests
         }
 
         [Theory]
-        [InlineData("2023-03-15", "2023-03-20")]
-        [InlineData("2023-03-15", "2023-04-02")]
-        [InlineData("2023-03-14", "2023-03-20")]
+        [InlineData("2023-03-17", "2023-03-20")]
+        [InlineData("2023-03-17", "2023-04-02")]
+        [InlineData("2023-03-16", "2023-03-20")]
         [InlineData("2023-03-20", "2023-03-25")]
         [InlineData("2023-03-20", "2023-04-05")]// all rooms occupied
         public void FindAvailableRoom_NoRoomsAvailable_ReturnsMinusOne(DateTime startDate, DateTime endDate)
