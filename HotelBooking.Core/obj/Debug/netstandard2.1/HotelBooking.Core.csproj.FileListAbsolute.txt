@@ -8,3 +8,13 @@
 /Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Core/obj/Debug/netstandard2.1/HotelBooking.Core.dll
 /Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Core/obj/Debug/netstandard2.1/HotelBooking.Core.pdb
 /Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Core/obj/Debug/netstandard2.1/HotelBooking.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.csproj.AssemblyReference.cache
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.AssemblyInfoInputs.cache
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.AssemblyInfo.cs
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.csproj.CoreCompileInputs.cache
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.dll
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.pdb
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.Core\bin\Debug\netstandard2.1\HotelBooking.Core.deps.json
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.Core\bin\Debug\netstandard2.1\HotelBooking.Core.dll
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.Core\bin\Debug\netstandard2.1\HotelBooking.Core.pdb

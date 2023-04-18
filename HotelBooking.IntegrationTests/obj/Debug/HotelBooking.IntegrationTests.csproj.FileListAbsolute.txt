@@ -140,3 +140,11 @@
 /Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.IntegrationTests/obj/Debug/HotelBooking.IntegrationTests.pdb
 /Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.IntegrationTests/obj/Debug/HotelBooking.IntegrationTests.genruntimeconfig.cache
 /Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.IntegrationTests/obj/Debug/ref/HotelBooking.IntegrationTests.dll
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.IntegrationTests\obj\Debug\HotelBooking.IntegrationTests.csproj.AssemblyReference.cache
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.IntegrationTests\obj\Debug\HotelBooking.IntegrationTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.IntegrationTests\obj\Debug\HotelBooking.IntegrationTests.AssemblyInfoInputs.cache
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.IntegrationTests\obj\Debug\HotelBooking.IntegrationTests.AssemblyInfo.cs
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.IntegrationTests\obj\Debug\HotelBooking.IntegrationTests.csproj.CoreCompileInputs.cache
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.IntegrationTests\obj\Debug\HotelBooking.IntegrationTests.dll
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.IntegrationTests\obj\Debug\refint\HotelBooking.IntegrationTests.dll
+C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.IntegrationTests\obj\Debug\HotelBooking.IntegrationTests.pdb

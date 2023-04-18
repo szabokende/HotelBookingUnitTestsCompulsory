@@ -9,93 +9,93 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HotelBooking.Mvc
 build_property.RootNamespace = HotelBooking.Mvc
-build_property.ProjectDir = /Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/
+build_property.ProjectDir = C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.Mvc\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc
+build_property.MSBuildProjectDirectory = C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.Mvc
 build_property._RazorSourceGeneratorDebug = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Bookings/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZ3MvQ3JlYXRlLmNzaHRtbA==
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Bookings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Bookings/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZ3MvRGVsZXRlLmNzaHRtbA==
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Bookings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Bookings/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZ3MvRGV0YWlscy5jc2h0bWw=
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Bookings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Bookings/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZ3MvRWRpdC5jc2h0bWw=
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Bookings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Bookings/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQm9va2luZ3MvSW5kZXguY3NodG1s
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Bookings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Customers/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0NyZWF0ZS5jc2h0bWw=
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Customers/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0RlbGV0ZS5jc2h0bWw=
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Customers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Customers/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0RldGFpbHMuY3NodG1s
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Customers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Customers/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0VkaXQuY3NodG1s
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Customers/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXJzL0luZGV4LmNzaHRtbA==
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Rooms/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbXMvQ3JlYXRlLmNzaHRtbA==
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Rooms/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Rooms/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbXMvRGVsZXRlLmNzaHRtbA==
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Rooms/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Rooms/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbXMvRGV0YWlscy5jc2h0bWw=
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Rooms/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Rooms/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbXMvRWRpdC5jc2h0bWw=
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Rooms/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Rooms/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9vbXMvSW5kZXguY3NodG1s
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Rooms/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Shared/_CookieConsentPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Shared/_CookieConsentPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.Mvc/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

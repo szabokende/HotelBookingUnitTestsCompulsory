@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../buildMultiTargeting/HotelBooking.WebApi.props" />
+  <Import Project="..\buildMultiTargeting\HotelBooking.WebApi.props" />
 </Project>
