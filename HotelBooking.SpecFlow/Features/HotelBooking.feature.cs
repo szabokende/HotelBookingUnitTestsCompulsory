@@ -108,7 +108,7 @@ this.ScenarioInitialize(scenarioInfo);
     testRunner.And("a room booked from \"Today+10\" to \"Today+15\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 10
-    testRunner.When("I book a room from \"Today+1\" to \"Today+7\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.When("I book the same room from \"Today+1\" to \"Today+7\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 11
     testRunner.Then("the booking should be created successfully", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -151,7 +151,7 @@ this.ScenarioInitialize(scenarioInfo);
     testRunner.And("a room booked from \"Today+10\" to \"Today+15\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 16
-    testRunner.When("I book a room from \"Today+16\" to \"Today+19\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.When("I book the same room from \"Today+16\" to \"Today+19\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 17
     testRunner.Then("the booking should be created successfully", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -194,7 +194,7 @@ this.ScenarioInitialize(scenarioInfo);
     testRunner.And("a room booked from \"Today+10\" to \"Today+15\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 22
-    testRunner.When("I book a room from \"Today+11\" to \"Today+13\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.When("I book the same room from \"Today+11\" to \"Today+13\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 23
     testRunner.Then("the booking should not be created", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -409,51 +409,10 @@ this.ScenarioInitialize(scenarioInfo);
     testRunner.And("a room booked from \"Today+10\" to \"Today+15\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 55
-    testRunner.When("I book the same room from \"Today+3\" to \"Today+17\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+    testRunner.When("I book the same room from \"Today+15\" to \"Today+17\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 56
     testRunner.Then("the booking should not be created", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            }
-            this.ScenarioCleanup();
-        }
-        
-        [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("SD is in the past")]
-        public virtual void SDIsInThePast()
-        {
-            string[] tagsOfScenario = ((string[])(null));
-            System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("SD is in the past", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 60
-this.ScenarioInitialize(scenarioInfo);
-#line hidden
-            bool isScenarioIgnored = default(bool);
-            bool isFeatureIgnored = default(bool);
-            if ((tagsOfScenario != null))
-            {
-                isScenarioIgnored = tagsOfScenario.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
-            }
-            if ((this._featureTags != null))
-            {
-                isFeatureIgnored = this._featureTags.Where(__entry => __entry != null).Where(__entry => String.Equals(__entry, "ignore", StringComparison.CurrentCultureIgnoreCase)).Any();
-            }
-            if ((isScenarioIgnored || isFeatureIgnored))
-            {
-                testRunner.SkipScenario();
-            }
-            else
-            {
-                this.ScenarioStart();
-#line 61
-    testRunner.Given("a hotel with available rooms", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-#line 62
-    testRunner.When("I book a room from \"2023-04-01\" to \"Today+7\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 63
-    testRunner.Then("I should see an error message The start date cannot be in the past or later than " +
-                        "the end date.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

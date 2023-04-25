@@ -44,42 +44,8 @@ namespace HotelBooking.SpecFlow.StepDefinitions
             DateTime end = ParseDate(endDate);
             _bookingRepository.Add(new Booking { Id = 1, RoomId = 1, StartDate = start, EndDate = end, IsActive = true });
         }
-
-        [When(@"I book a room from ""(.*)"" to ""(.*)""")]
-        public void WhenIBookARoomFrom(string startDate, string endDate)
-        {
-            _booking = new Booking { StartDate = ParseDate(startDate), EndDate = ParseDate(endDate) };
-
-            try
-            {
-                _bookingResult = _bookingManager.CreateBooking(_booking);
-            }
-            catch (Exception ex)
-            {
-                _errorMessage = ex.Message;
-            }
-        }
-
-        [Then("the booking should be created successfully")]
-        public void ThenTheBookingShouldBeCreatedSuccessfully()
-        {
-            Assert.IsTrue(_bookingResult);
-        }
-
-        [Then("the booking should not be created")]
-        public void ThenTheBookingShouldNotBeCreated()
-        {
-            Assert.IsFalse(_bookingResult);
-        }
-
-        [Then("I should see an error message (.*)")]
-        public void ThenIShouldSeeAnErrorMessage(string expectedErrorMessage)
-        {
-            Assert.AreEqual(expectedErrorMessage, _errorMessage);
-        }
-
-
-
+        
+        
         [When(@"I book the same room from ""(.*)"" to ""(.*)""")]
         public void WhenIBookTheSameRoomFromTo(string startDate, string endDate)
         {
@@ -95,6 +61,50 @@ namespace HotelBooking.SpecFlow.StepDefinitions
                 _errorMessage = ex.Message;
             }
         }
+        
+        
+        
+/*
+        [When(@"I book a room from ""(.*)"" to ""(.*)""")]
+        public void WhenIBookARoomFrom(string startDate, string endDate)
+        {
+            _booking = new Booking { StartDate = ParseDate(startDate), EndDate = ParseDate(endDate) };
+
+            try
+            {
+                _bookingResult = _bookingManager.CreateBooking(_booking);
+            }
+            catch (Exception ex)
+            {
+                _errorMessage = ex.Message;
+            }
+        }
+        */
+
+        [Then("the booking should be created successfully")]
+        public void ThenTheBookingShouldBeCreatedSuccessfully()
+        {
+            Assert.IsTrue(_bookingResult);
+        }
+
+        [Then("the booking should not be created")]
+        public void ThenTheBookingShouldNotBeCreated()
+        {
+            Assert.IsFalse(_bookingResult);
+        }
+
+        
+        /*
+        [Then("I should see an error message (.*)")]
+        public void ThenIShouldSeeAnErrorMessage(string expectedErrorMessage)
+        {
+            Assert.AreEqual(expectedErrorMessage, _errorMessage);
+        }
+*/
+
+
+       
+        
 
        
 
