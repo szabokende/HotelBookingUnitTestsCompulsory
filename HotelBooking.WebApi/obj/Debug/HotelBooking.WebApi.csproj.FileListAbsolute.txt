@@ -73,91 +73,179 @@
 /Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.pdb
 /Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.genruntimeconfig.cache
 /Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.WebApi/obj/Debug/ref/HotelBooking.WebApi.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\HotelBooking.WebApi.csproj.AssemblyReference.cache
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\HotelBooking.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\HotelBooking.WebApi.AssemblyInfoInputs.cache
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\HotelBooking.WebApi.AssemblyInfo.cs
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\HotelBooking.WebApi.csproj.CoreCompileInputs.cache
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\HotelBooking.WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\HotelBooking.WebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\HotelBooking.WebApi.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\refint\HotelBooking.WebApi.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\HotelBooking.WebApi.pdb
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\appsettings.json
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\HotelBooking.WebApi.exe
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\HotelBooking.WebApi.deps.json
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\HotelBooking.WebApi.runtimeconfig.json
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\HotelBooking.WebApi.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\HotelBooking.WebApi.pdb
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Azure.Core.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Azure.Identity.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\BoDi.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Castle.Core.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Cucumber.Messages.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Gherkin.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Google.Protobuf.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Moq.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\nunit.framework.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\TechTalk.SpecFlow.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\SpecFlow.Internal.Json.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\System.Drawing.Common.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\System.Memory.Data.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\System.Runtime.Caching.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\System.Security.Permissions.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\System.Windows.Extensions.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\HotelBooking.Core.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\HotelBooking.Infrastructure.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\HotelBooking.Core.pdb
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\bin\Debug\net6.0\HotelBooking.Infrastructure.pdb
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\staticwebassets\msbuild.HotelBooking.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\staticwebassets\msbuild.build.HotelBooking.WebApi.props
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\staticwebassets\msbuild.buildMultiTargeting.HotelBooking.WebApi.props
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\staticwebassets\msbuild.buildTransitive.HotelBooking.WebApi.props
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\staticwebassets.pack.json
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\staticwebassets.build.json
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\staticwebassets.development.json
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\scopedcss\bundle\HotelBooking.WebApi.styles.css
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\HotelBooking.WebApi.csproj.CopyComplete
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\HotelBooking.WebApi.genruntimeconfig.cache
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.WebApi\obj\Debug\ref\HotelBooking.WebApi.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.csproj.AssemblyReference.cache
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.AssemblyInfoInputs.cache
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.AssemblyInfo.cs
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.csproj.CoreCompileInputs.cache
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/refint/HotelBooking.WebApi.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.pdb
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/appsettings.json
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.WebApi.exe
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.WebApi.deps.json
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.WebApi.runtimeconfig.json
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.WebApi.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.WebApi.pdb
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Azure.Core.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Azure.Identity.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/BoDi.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Castle.Core.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Cucumber.Messages.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Gherkin.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Google.Protobuf.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.DotNet.PlatformAbstractions.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.OpenApi.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Moq.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Newtonsoft.Json.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/nunit.framework.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/TechTalk.SpecFlow.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/SpecFlow.Internal.Json.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.Drawing.Common.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.Memory.Data.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.Runtime.Caching.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.Security.Permissions.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.Windows.Extensions.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.Core.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.Infrastructure.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.Core.pdb
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.Infrastructure.pdb
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/staticwebassets/msbuild.HotelBooking.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/staticwebassets/msbuild.build.HotelBooking.WebApi.props
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/staticwebassets/msbuild.buildMultiTargeting.HotelBooking.WebApi.props
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/staticwebassets/msbuild.buildTransitive.HotelBooking.WebApi.props
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/staticwebassets.pack.json
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/staticwebassets.build.json
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/staticwebassets.development.json
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/scopedcss/bundle/HotelBooking.WebApi.styles.css
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.csproj.CopyComplete
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.genruntimeconfig.cache
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/ref/HotelBooking.WebApi.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/appsettings.Development.json
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/appsettings.json
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.WebApi
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.WebApi.deps.json
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.WebApi.runtimeconfig.json
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.WebApi.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.WebApi.pdb
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Azure.Core.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Azure.Identity.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/BoDi.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Castle.Core.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Cucumber.Messages.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Gherkin.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Google.Protobuf.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.SqlServer.Server.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Moq.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/nunit.framework.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/TechTalk.SpecFlow.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/SpecFlow.Internal.Json.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.Drawing.Common.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.Memory.Data.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.Security.Permissions.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.Core.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.Infrastructure.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.Core.pdb
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/bin/Debug/net6.0/HotelBooking.Infrastructure.pdb
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.csproj.AssemblyReference.cache
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.AssemblyInfoInputs.cache
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.AssemblyInfo.cs
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.csproj.CoreCompileInputs.cache
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.MvcApplicationPartsAssemblyInfo.cs
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.MvcApplicationPartsAssemblyInfo.cache
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/staticwebassets/msbuild.HotelBooking.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/staticwebassets/msbuild.build.HotelBooking.WebApi.props
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/staticwebassets/msbuild.buildMultiTargeting.HotelBooking.WebApi.props
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/staticwebassets/msbuild.buildTransitive.HotelBooking.WebApi.props
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/staticwebassets.pack.json
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/staticwebassets.build.json
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/staticwebassets.development.json
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/scopedcss/bundle/HotelBooking.WebApi.styles.css
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.csproj.CopyComplete
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/refint/HotelBooking.WebApi.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.pdb
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/HotelBooking.WebApi.genruntimeconfig.cache
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.WebApi/obj/Debug/ref/HotelBooking.WebApi.dll

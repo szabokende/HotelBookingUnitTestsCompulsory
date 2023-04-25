@@ -34,7 +34,7 @@ namespace HotelBooking.SpecFlow.StepDefinitions
 
             // Add sample rooms
             _roomRepository.Add(new Room { Id = 1, Description = "Room 1" });
-            _roomRepository.Add(new Room { Id = 2, Description = "Room 2" });
+           // _roomRepository.Add(new Room { Id = 2, Description = "Room 2" });
         }
 
         [Given("a room booked from (.*) to (.*)")]

@@ -168,11 +168,19 @@
 /Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.UnitTests/bin/Debug/net6.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
 /Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.UnitTests/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 /Volumes/T7/VisualStudioProjects/HotelBooking_Clean-master/HotelBooking.UnitTests/bin/Debug/net6.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.UnitTests\obj\Debug\HotelBooking.UnitTests.csproj.AssemblyReference.cache
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.UnitTests\obj\Debug\HotelBooking.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.UnitTests\obj\Debug\HotelBooking.UnitTests.AssemblyInfoInputs.cache
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.UnitTests\obj\Debug\HotelBooking.UnitTests.AssemblyInfo.cs
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.UnitTests\obj\Debug\HotelBooking.UnitTests.csproj.CoreCompileInputs.cache
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.UnitTests\obj\Debug\HotelBooking.UnitTests.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.UnitTests\obj\Debug\refint\HotelBooking.UnitTests.dll
-C:\Users\Kende\source\repos\HotelBookingUnitTestsCompulsory\HotelBooking.UnitTests\obj\Debug\HotelBooking.UnitTests.pdb
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/HotelBooking.UnitTests.csproj.AssemblyReference.cache
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/HotelBooking.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/HotelBooking.UnitTests.AssemblyInfoInputs.cache
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/HotelBooking.UnitTests.AssemblyInfo.cs
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/HotelBooking.UnitTests.csproj.CoreCompileInputs.cache
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/HotelBooking.UnitTests.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/refint/HotelBooking.UnitTests.dll
+C:/Users/Kende/source/repos/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/HotelBooking.UnitTests.pdb
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/HotelBooking.UnitTests.csproj.AssemblyReference.cache
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/HotelBooking.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/HotelBooking.UnitTests.AssemblyInfoInputs.cache
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/HotelBooking.UnitTests.AssemblyInfo.cs
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/HotelBooking.UnitTests.csproj.CoreCompileInputs.cache
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/HotelBooking.UnitTests.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/refint/HotelBooking.UnitTests.dll
+/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.UnitTests/obj/Debug/HotelBooking.UnitTests.pdb

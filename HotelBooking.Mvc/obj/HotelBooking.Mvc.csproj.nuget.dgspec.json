@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Mvc\\HotelBooking.Mvc.csproj": {}
+    "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/HotelBooking.Mvc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Core\\HotelBooking.Core.csproj": {
+    "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Core/HotelBooking.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Core\\HotelBooking.Core.csproj",
+        "projectUniqueName": "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Core/HotelBooking.Core.csproj",
         "projectName": "HotelBooking.Core",
-        "projectPath": "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Core\\HotelBooking.Core.csproj",
-        "packagesPath": "C:\\Users\\Kende\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Core\\obj\\",
+        "projectPath": "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Core/HotelBooking.Core.csproj",
+        "packagesPath": "/Users/belakovacs/.nuget/packages/",
+        "outputPath": "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kende\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/belakovacs/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,47 +58,39 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "NETStandard.Library.Ref",
-              "version": "[2.1.0, 2.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj": {
+    "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Infrastructure/HotelBooking.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj",
+        "projectUniqueName": "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Infrastructure/HotelBooking.Infrastructure.csproj",
         "projectName": "HotelBooking.Infrastructure",
-        "projectPath": "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Kende\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Infrastructure\\obj\\",
+        "projectPath": "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Infrastructure/HotelBooking.Infrastructure.csproj",
+        "packagesPath": "/Users/belakovacs/.nuget/packages/",
+        "outputPath": "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kende\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/belakovacs/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Core\\HotelBooking.Core.csproj": {
-                "projectPath": "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Core\\HotelBooking.Core.csproj"
+              "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Core/HotelBooking.Core.csproj": {
+                "projectPath": "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Core/HotelBooking.Core.csproj"
               }
             }
           }
@@ -152,39 +142,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Mvc\\HotelBooking.Mvc.csproj": {
+    "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/HotelBooking.Mvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Mvc\\HotelBooking.Mvc.csproj",
+        "projectUniqueName": "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/HotelBooking.Mvc.csproj",
         "projectName": "HotelBooking.Mvc",
-        "projectPath": "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Mvc\\HotelBooking.Mvc.csproj",
-        "packagesPath": "C:\\Users\\Kende\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Mvc\\obj\\",
+        "projectPath": "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/HotelBooking.Mvc.csproj",
+        "packagesPath": "/Users/belakovacs/.nuget/packages/",
+        "outputPath": "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Mvc/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kende\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/belakovacs/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Core\\HotelBooking.Core.csproj": {
-                "projectPath": "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Core\\HotelBooking.Core.csproj"
+              "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Core/HotelBooking.Core.csproj": {
+                "projectPath": "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Core/HotelBooking.Core.csproj"
               },
-              "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Kende\\source\\repos\\HotelBookingUnitTestsCompulsory\\HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj"
+              "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Infrastructure/HotelBooking.Infrastructure.csproj": {
+                "projectPath": "/Volumes/T7 Touch/suli/HotelBookingUnitTestsCompulsory/HotelBooking.Infrastructure/HotelBooking.Infrastructure.csproj"
               }
             }
           }
@@ -243,7 +231,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
